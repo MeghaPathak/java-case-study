@@ -42,26 +42,32 @@ The application uses *'Inverted Index'* logic to store keywords against the Cata
 Let's say we have 3 products :
 
 Product1 -> { 	title:Britiania biscuit, 
-				desctiption:"Maida butter biscuit", 
+				description:"Maida butter biscuit", 
 				Catalog : "Food"
 			}
 
 Product2 -> { 	title:"Monaco", 
-				desctiption:"Salty butter biscuit", 
+				description:"Salty butter biscuit", 
 				Catalog : "Food"
 			}
 
 Product3 -> { 	title:"Cocoa Butter Cream", 
-				desctiption:"Cream with richness of cocoa butter", 
+				description:"Cream with richness of cocoa butter", 
 				Catalog : "Body Lotions"
 			}
 
-*Search for keyword "butter" will yeild 3 results where as biscuit will yield two results.*
+*Search for keyword 'butter' will yeild 3 results where as 'biscuit' will yield two results.*
 
 ```
 ******* 3 Search Results for 'Butter'  : *********
 Product: Monaco in Catalog :Food
 Product: Cocoa butter Cream in Catalog :Body Lotions
+Product: Britinia Biscuits in Catalog :Food
+```
+
+```
+******* 2 Search Results for 'Biscuit'  : *********
+Product: Monaco in Catalog :Food
 Product: Britinia Biscuits in Catalog :Food
 ```
 
